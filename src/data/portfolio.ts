@@ -40,14 +40,14 @@ export interface SocialLink {
 export const profile: Profile = {
   name: 'Jungmin An',
   initials: 'JA',
-  role: 'Java Backend Developer',
-  eyebrow: 'JAVA BACKEND · GROWING WITH FUNDAMENTALS',
+  role: 'Software Developer',
+  eyebrow: 'SOFTWARE DEVELOPER · BUILDING WITH FUNDAMENTALS',
   headline: '기초를 이해하고,\n단단한 코드를 향해.',
   summary:
-    '빠르게 넘어가기보다 왜 그렇게 동작하는지 이해하며 Java 백엔드 개발의 기본기를 쌓고 있습니다.',
+    '실무에서 C#/.NET과 JavaScript를 다루고, Java를 학습하며 개발의 기본기를 함께 넓혀가고 있습니다.',
   introduction: [
-    '좋은 코드는 화려한 기술보다 명확한 이해에서 시작한다고 믿습니다. Java의 문법과 객체지향 기초를 차근차근 익히며, 배운 내용을 스스로 설명할 수 있는 지식으로 만드는 중입니다.',
-    '작은 단위로 학습하고 기록하며 다음 단계로 나아갑니다. 지금의 탄탄한 기본기가 앞으로 더 복잡한 문제를 다룰 때 흔들리지 않는 기반이 되도록 꾸준히 성장하겠습니다.',
+    '현재 C#과 .NET, JavaScript를 사용하는 실무 프로젝트에 참여하고 있습니다. 맡은 영역의 코드를 이해하고 실제 문제를 해결하는 경험을 쌓으며, 기술을 이유와 맥락까지 설명할 수 있는 개발자가 되려 합니다.',
+    '실무 경험과 함께 Java의 문법과 객체지향 기초를 차근차근 학습하고 있습니다. 빠르게 기술 목록을 늘리기보다 직접 사용하고 이해한 것만 제 역량으로 소개합니다.',
   ],
   githubUsername: 'jminan01',
   githubUrl: 'https://github.com/jminan01',
@@ -56,47 +56,47 @@ export const profile: Profile = {
 export const focusItems: FocusItem[] = [
   {
     number: '01',
-    title: 'Java Fundamentals',
+    title: 'C# & .NET',
     description:
-      '문법을 외우는 데 그치지 않고 코드가 실행되는 흐름과 언어의 기본 원리를 이해합니다.',
-    keywords: ['Java', 'Core', 'Practice'],
+      '현재 참여 중인 실무 프로젝트에서 C#과 .NET을 다루며 기존 코드와 서비스의 흐름을 이해해 나가고 있습니다.',
+    keywords: ['C#', '.NET', 'In Practice'],
   },
   {
     number: '02',
-    title: 'Object-Oriented Thinking',
+    title: 'JavaScript in Practice',
     description:
-      '역할과 책임을 나누고, 변경의 영향을 줄이는 객체지향적 사고방식을 연습합니다.',
-    keywords: ['OOP', 'Responsibility', 'Design'],
+      '실무 프로젝트에서 JavaScript 코드를 다루며 동작과 실행 흐름을 이해하는 경험을 쌓고 있습니다.',
+    keywords: ['JavaScript', 'Runtime', 'Practice'],
   },
   {
     number: '03',
-    title: 'Learning in Small Steps',
+    title: 'Java Fundamentals',
     description:
-      '작게 배우고 직접 확인한 뒤 기록하는 과정을 반복하며 지식을 단단하게 만듭니다.',
-    keywords: ['Learn', 'Verify', 'Record'],
+      '문법과 객체지향 개념을 직접 코드로 확인하며, Java 백엔드 개발로 확장할 수 있는 기본기를 학습합니다.',
+    keywords: ['Java', 'OOP', 'Learning'],
   },
 ]
 
 export const timeline: TimelineEntry[] = [
   {
     phase: 'NOW',
-    title: 'Java 기본기 다지기',
+    title: '실무 프로젝트 경험 쌓기',
     description:
-      '언어의 핵심 문법과 객체지향 개념을 직접 코드로 확인하며 기초 체력을 쌓고 있습니다.',
+      'C#과 .NET, JavaScript 기반 프로젝트에 참여하며 기존 코드를 읽고 맡은 영역을 이해하는 경험을 쌓고 있습니다.',
     state: 'active',
   },
   {
-    phase: 'NEXT',
-    title: '작은 백엔드 프로젝트로 확장',
+    phase: 'LEARN',
+    title: 'Java 기본기 학습',
     description:
-      '학습한 개념을 하나의 동작하는 결과물에 연결하고 설계 선택의 이유를 기록할 예정입니다.',
+      '실무와 병행해 Java의 핵심 문법과 객체지향 개념을 직접 코드로 확인하며 기초 체력을 다지고 있습니다.',
     state: 'next',
   },
   {
-    phase: 'THEN',
-    title: '공개 가능한 결과물 만들기',
+    phase: 'NEXT',
+    title: '설명할 수 있는 결과물 만들기',
     description:
-      '과정과 판단을 함께 설명할 수 있는 프로젝트를 완성해 이 포트폴리오에 소개하겠습니다.',
+      '실무에서 배운 관점과 학습한 개념을 연결해, 과정과 판단을 함께 설명할 수 있는 프로젝트를 만들겠습니다.',
     state: 'planned',
   },
 ]

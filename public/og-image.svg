@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
-  <title id="title">Jungmin An — Java Backend Developer</title>
+  <title id="title">Jungmin An — Software Developer</title>
   <desc id="desc">차콜 배경과 일렉트릭 그린 JA 모노그램으로 구성된 포트폴리오 공유 이미지</desc>
   <defs>
     <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
@@ -18,7 +18,7 @@
   <text x="975" y="192" fill="#101210" font-family="Arial, sans-serif" font-size="92" font-weight="800" text-anchor="middle">JA</text>
   <text x="84" y="110" fill="#d8ff3e" font-family="monospace" font-size="22" letter-spacing="4">PORTFOLIO · 2026</text>
   <text x="82" y="287" fill="#f2f5ed" font-family="Arial, sans-serif" font-size="76" font-weight="750">Jungmin An</text>
-  <text x="84" y="356" fill="#a7b0a4" font-family="Arial, sans-serif" font-size="36">Java Backend Developer</text>
+  <text x="84" y="356" fill="#a7b0a4" font-family="Arial, sans-serif" font-size="36">Software Developer</text>
   <path d="M84 434h640" stroke="#30382f" stroke-width="2"/>
   <text x="84" y="494" fill="#f2f5ed" font-family="Arial, sans-serif" font-size="27">Clear thinking. Solid fundamentals. Steady growth.</text>
   <text x="84" y="556" fill="#7d887a" font-family="monospace" font-size="20">jminan01.github.io</text>
