@@ -7,7 +7,7 @@
 
 ## 포트폴리오에 소개하는 기술
 
-- 주요 사용 기: C#, .NET, JavaScript
+- 주요 사용 기술: C#, .NET, JavaScript
 - 현재 학습: Java, 객체지향 기초
 
 현재 참여 중인 프로젝트의 이름, 업무 데이터, 소스 코드처럼 공개할 수 없는 정보는 포함하지 않습니다. 직접 참여하거나 학습한 범위만 소개합니다.
@@ -41,15 +41,9 @@ pnpm preview
 
 프로덕션 빌드 결과는 `dist` 디렉터리에 생성되며 Git에는 포함하지 않습니다.
 
-## 콘텐츠 수정
-
-프로필, 기술 스택, 학습 여정, 프로젝트, 외부 링크는 `src/data/portfolio.ts`에서 관리합니다. 공개할 프로젝트가 준비되면 `projects` 배열에 `Project` 형식으로 추가할 수 있습니다.
-
-검색·공유용 메타데이터는 `index.html`, 파비콘과 공유 이미지는 `public` 디렉터리에서 관리합니다.
-
 ## 배포
 
-`main` 브랜치에 푸시하면 `.github/workflows/deploy.yml`이 타입 검사와 정적 사이트 빌드를 수행한 뒤 GitHub Pages에 배포합니다.
+GitHub Actions를 이용해 main 브랜치에 푸시하면 자동으로 빌드 및 GitHub Pages에 배포됩니다.
 
 ## 개인정보와 데이터
 
